@@ -1,3 +1,12 @@
+import HeroSection from "@/components/hero-section";
+
 export default function Index() {
-  return <div>Index</div>;
+  return (
+    <>
+      <main>
+        {/* Hero Section */}
+        <HeroSection />
+      </main>
+    </>
+  );
 }
