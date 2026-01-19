@@ -1,6 +1,7 @@
 import { Navbar } from "@/components/navbar";
-import ExperiencePage from "@/components/experience-section";
+import ExperienceSection from "@/components/experience-section";
 import HeroSection from "@/components/hero-section";
+import SkillSection from "@/components/skills-section";
 
 export default function Index() {
   return (
@@ -12,7 +13,10 @@ export default function Index() {
         <HeroSection />
 
         {/* Experience Page */}
-        <ExperiencePage />
+        <ExperienceSection />
+
+        {/* Skills */}
+        <SkillSection />
       </main>
     </>
   );
