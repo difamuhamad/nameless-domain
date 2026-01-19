@@ -35,7 +35,7 @@ export default function HeroSection() {
   return (
     <div className="container mx-auto px-4 min-h-screen flex items-center justify-center pt-16 md:pt-0">
       <div
-        id="home-content-wrapper"
+        id="home"
         className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-12 max-w-7xl w-full py-8 md:py-0"
       >
         {/* Profile Image Section - Light Theme Design */}

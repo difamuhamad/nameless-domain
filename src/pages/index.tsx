@@ -2,6 +2,7 @@ import { Navbar } from "@/components/navbar";
 import ExperienceSection from "@/components/experience-section";
 import HeroSection from "@/components/hero-section";
 import SkillSection from "@/components/skills-section";
+import FooterSection from "@/components/footer-section";
 
 export default function Index() {
   return (
@@ -17,6 +18,9 @@ export default function Index() {
 
         {/* Skills */}
         <SkillSection />
+
+        {/* Footer */}
+        <FooterSection />
       </main>
     </>
   );

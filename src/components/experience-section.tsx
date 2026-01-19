@@ -9,7 +9,7 @@ import Certificate5 from "../assets/certificate-5.webp";
 import Certificate6 from "../assets/certificate-6.webp";
 import { Marquee } from "./ui/marquee";
 
-export default function ExperiencePage() {
+export default function ExperienceSection() {
   const certificates = [
     {
       src: Certificate1,
